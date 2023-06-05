@@ -1,6 +1,6 @@
 # ALX Higher Level Programming Repository
 
-Welcome to the ALX Higher Level Programming Repository! This repository is designed to support the Horbelton School Software Engineering Program, specifically for students who are pursuing higher-level programming courses. Here, you will find a collection of resources, projects, and exercises to help you develop your skills in various programming languages and concepts.
+Welcome to the ALX Higher Level Programming Repository! This repository is designed to hold all the higher level projects am doing  Horbelton School Software Engineering Program.Here, you will find a collection of resources, projects, and exercises to help you develop your skills in various programming languages and concepts.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to the ALX Higher Level Programming Repository! This repository is desig
 
 ## Description
 
-The ALX Higher Level Programming Repository is a comprehensive collection of materials to aid you in your journey to becoming a proficient software engineer. It covers a wide range of topics, including but not limited to:
+The ALX Higher Level Programming Repository is a comprehensive collection of materials to aid me and anyone your journey to becoming a proficient software engineer. It covers a wide range of topics, including but not limited to:
 
 - Object-oriented programming
 - Data structures and algorithms
