@@ -4,4 +4,4 @@ alphabet = ""
 for char in range(ord('a'), ord('z') + 1):
     alphabet += chr(char)
 
-print("{}{}".format(alphabet, '\n'), end='')
+print("{0}".format(alphabet, end='')
