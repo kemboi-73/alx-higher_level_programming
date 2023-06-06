@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-for char in range(ord('a'), ord('z') + 1):
-    if chr(char) not in ['q', 'e']:
-        print(chr(char), end='')
+for alphabet in range(97, 123):
+    if chr(alphabet) not in ('e', 'q'):
+        print(chr(alphabet), end='')
 
 print('', end='')
