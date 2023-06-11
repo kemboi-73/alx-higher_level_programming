@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nclude <stdlib.h>
+=======
+#include <stdlib.h>
+>>>>>>> 4be34b605cf78051a0ad53da8bac983fdc9b78d8
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
