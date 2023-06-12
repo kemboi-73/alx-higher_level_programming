@@ -1,8 +1,8 @@
-Project 0x03. Python - Data Structures: Lists, Tuples
-Description
+# Project 0x03. Python - Data Structures: Lists, Tuples
+# Description
 This project focuses on working with lists and tuples in Python. It consists of several functions that perform operations on lists and tuples, such as printing integers, accessing elements, replacing elements, reversing lists, removing characters from strings, printing matrices, adding tuples, and finding the maximum integer in a list.
 
-The project includes the following files:
+# The project includes the following files:
 
 0-print_list_integer.py: Contains a function print_list_integer(my_list) that prints all the integers of a given list.
 
@@ -24,49 +24,39 @@ The project includes the following files:
 
 9-max_integer.py: Contains a function max_integer(my_list) that finds the biggest integer in a list.
 
-Usage
+# Usage
 Each file is a standalone module and can be executed independently. You can import the functions into your own Python scripts and use them as needed. The usage of each function is described below:
 
-0-print_list_integer.py
+# 0-print_list_integer.py
 This module provides the function print_list_integer(my_list). It takes a list of integers as input and prints each integer on a separate line.
 
-Example usage:
+# Example usage:
 
-python
-Copy code
+# python example
+
 my_list = [1, 2, 3, 4, 5]
 print_list_integer(my_list)
-Output:
+# Output:
 
-Copy code
 1
 2
 3
 4
 5
-1-element_at.py
+# 1-element_at.py
 This module provides the function element_at(my_list, idx). It retrieves an element from a list based on the given index.
 
-Example usage:
-
-python
-Copy code
+# Example usage i python:
 my_list = [1, 2, 3, 4, 5]
 idx = 3
 element = element_at(my_list, idx)
 print("Element at index {:d} is {}".format(idx, element))
-Output:
-
-csharp
-Copy code
+# Output:
 Element at index 3 is 4
-2-replace_in_list.py
+# 2-replace_in_list.py
 This module provides the function replace_in_list(my_list, idx, element). It replaces an element in a list at a specific position.
 
-Example usage:
-
-python
-Copy code
+# Example usage in python:
 my_list = [1, 2, 3, 4, 5]
 idx = 3
 new_element = 9
@@ -74,9 +64,6 @@ new_list = replace_in_list(my_list, idx, new_element)
 
 print(new_list)
 print(my_list)
-Output:
-
-csharp
-Copy code
+# Output:
 [1, 2, 3, 9, 5]
 [1, 2, 3, 9, 5]
