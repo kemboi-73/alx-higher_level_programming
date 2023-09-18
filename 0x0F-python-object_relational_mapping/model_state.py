@@ -1,17 +1,20 @@
 #!/usr/bin/python3
+"""Start link class to table in database 
 """
-Model Docs
-"""
-from model_state import Base, State
-from sqlalchemy import Integer, String, Column, ForeignKey
+import sys
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import create_engine
 
+Base = declarative_base()
 
-class City(Base):
-    """
-    Class Docs
-    """
-    __tablename__ = "cities"
-    id = Column(Integer, primary_key=True, nullable=False)
+class State(Base):
+    __tablename__ = 'states'
+
+    id = Column(Integer, primary_key=True, nullable=False, autoincrement=True)
     name = Column(String(128), nullable=False)
-    state_id = Column(Integer, ForeignKey('states.id'), nullable=False)
+
+if __name__ == "__main__":
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'.format(sys.argv[1], sys.argv[2], sys.argv[3]), pool_pre_ping=True)
+    Base.metadata.create_all(engine)
+
